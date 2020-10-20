@@ -1,0 +1,122 @@
+/* CSS for my CONTACT PAGE */
+body{
+    margin: 0
+  }
+  /* css for my main header */
+  h1{
+      text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 0;
+    width:100%;
+    margin:0;
+    color:rgb(61,66,70);
+    letter-spacing:4px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(232,233,235);
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+    .navbar{
+    list-style-type: none;
+    color: rgb(61,66,70);
+    margin: 0px;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:rgb(61,66,70);
+    text-align: center;
+    padding: 16px 16px;
+    margin: 0px;
+    float: right;
+  }
+  .navbar a:hover{
+    background-color: rgb(134,134,134);
+    color: white;
+  }
+  img{
+    width: 100%;
+    height: 80%;
+     border-top-style: solid;
+    border-top-color: rgb(232,233,235);
+    padding-top: 4px;
+  }
+  h2{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+        text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 0;
+    width:100%;
+    margin:0;
+    color:rgb(61,66,70);
+    letter-spacing:2px;
+    padding-top: 20px
+  }
+  form{
+    background-color: rgb(245,245,245);
+    margin: 25px 300px 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(61,66,70);
+    padding: 10px;
+  }
+  footer{
+    background-color: rgb(245,245,245);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+        text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:rgb(61,66,70);
+    padding-bottom: 90px;
+    padding-top: 60px;
+    margin-top:80px;
+  }
+  /* This CSS affects all of my social media buttons appearance */
+  .social-media{
+    list-style-type:none; 
+    margin: 0px;
+  }
+  .social-media a{
+    text-align: center;
+    padding: 16px 16px;
+    margin: 0px;
+    float: right;
+  }
+  /* messing around with the social media buttons style */
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 12.5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  /* The CSS for all my social media icons */
+  .fa-facebook {
+    background: rgb(61, 66, 70);
+    color: white;
+    text-align: center;
+  }
+  .fa-twitter {
+    background: rgb(61, 66, 70);
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(61, 66, 70);
+    color: white;
+  }
